@@ -1,7 +1,7 @@
 <template>
   <main>
     <div class="generator">
-      <div class="preview" :style="previewBackground" :title="previewTitle"></div>
+      <div class="preview" :title="previewTitle" v-html="svg"></div>
       <div class="buttons">
         <button class="button" @click="generate">
           <svg
@@ -103,13 +103,13 @@ export default {
   align-items: center;
   transition: all 0.3s;
   width: 100%;
-  :hover {
+  &:hover {
     cursor: pointer;
   }
-  :active {
+  &:active {
     transform: scale(0.9);
   }
-  :focus {
+  &:focus {
     outline: none;
   }
   svg {
