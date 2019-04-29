@@ -80,28 +80,26 @@ export default {
 </script>
 
 <style lang="scss">
-.preview {
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  min-height: 300px;
-  min-width: 300px;
+.preview svg {
+  display: block;
+  width: 100%;
+  height: 100%;
 }
 
 .button {
   padding: 0.75em;
-  margin: 0.75em 0;
+  margin: 0 0 1em;
   border: none;
   background: lightseagreen;
   border-radius: 2px;
   font-family: Impact;
-  font-size: 1.5em;
+  font-size: 1.75em;
   line-height: 1em;
   flex: 1;
   display: flex;
   justify-content: center;
   align-items: center;
-  transition: all 0.3s;
+  transition: all 0.2s;
   width: 100%;
   &:hover {
     cursor: pointer;
