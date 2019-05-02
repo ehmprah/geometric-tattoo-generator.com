@@ -1,5 +1,8 @@
 <template>
-  <div class="home">Uhm ... nope.</div>
+  <main>
+    <h2>404</h2>
+    <p>There's nothing at this URL, sorry.</p>
+  </main>
 </template>
 
 <script>

@@ -40,5 +40,12 @@ export default new Router({
       path: '*',
       component: NotFound,
     },
+    {
+      // Redirect for PWA mode
+      path: '/index.html',
+      beforeEnter: (to, from, next) => {
+        next('/');
+      },
+    },
   ],
 });
