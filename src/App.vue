@@ -30,7 +30,7 @@ body {
 
 h1,
 h2 {
-  font-family: Impact, Charcoal, sans-serif;
+  font-family: 'Vollkorn', serif;
   font-weight: normal;
   font-size: 1em;
   line-height: 1.5em;
