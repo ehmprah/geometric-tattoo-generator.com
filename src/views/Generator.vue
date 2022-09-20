@@ -12,7 +12,7 @@
           <span>DOWNLOAD</span>
         </button>
       </div>
-      <Share/>
+      <Share />
     </div>
   </main>
 </template>
@@ -72,7 +72,6 @@ export default {
   border: none;
   background: lightseagreen;
   border-radius: 2px;
-  font-family: 'Vollkorn', serif;
   font-size: 1.75em;
   line-height: 1em;
   flex: 1;

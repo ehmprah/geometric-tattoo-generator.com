@@ -1,8 +1,8 @@
 <template>
   <div id="app">
-    <Header/>
-    <router-view/>
-    <Footer/>
+    <Header />
+    <router-view />
+    <Footer />
   </div>
 </template>
 
@@ -20,6 +20,8 @@ export default {
 
 <style lang="scss">
 body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica,
+    Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
   font-size: 14px;
   line-height: 1.5em;
   user-select: none;
@@ -30,8 +32,6 @@ body {
 
 h1,
 h2 {
-  font-family: 'Vollkorn', serif;
-  font-weight: normal;
   font-size: 1em;
   line-height: 1.5em;
   margin: 1.5em 0 0.5em 0;
